@@ -33,10 +33,25 @@ This enables accountability and clear operational handover.
 5. Run `php artisan migrate`
 6. Run `php artisan serve`
 
+## Potential future improvements to the system include:
+- Role-based access control to restrict administrative functions
+- Deployment to a cloud hosting platform for public access
+- Email or notification support for pending activities
+- Advanced reporting and export functionality (PDF/Excel)
+
 ## Notes
 - New users default to the role `staff`
 - Admin role can be assigned manually
 - The system is designed for internal support operations
+
+## Deployment
+The application has been developed and tested locally.
+It is production-ready and can be deployed to a live server.
+Full setup and deployment instructions are provided above.
+
+
+## Repository
+https://github.com/Ghost94dev/Support-Tracker
 
 ## Author
 Evlin Devalor Bengba-madozin
